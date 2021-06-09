@@ -6,8 +6,9 @@ function convertToFahrenheit(celsius) {
     let fahrenheit = (celsius * (9/5)) + 32
     return fahrenheit;
 }
-
-
-convertToFahrenheit(-30) // -> -22
-convertToFahrenheit(-10) // -> 14
-convertToFahrenheit(0) // -> 32
+// Declare a varaible to store the function
+const convertToF = convertToFahrenheit;
+// Call convertToF and pass in a celsius degree
+convertToF(-30) // -> -22
+convertToF(-10) // -> 14
+convertToF(0) // -> 32
