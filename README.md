@@ -1,5 +1,5 @@
 
-# Follow this instructions
+# Instructions
 
 * Fork this repo.
 
