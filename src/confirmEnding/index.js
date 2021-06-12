@@ -1,6 +1,7 @@
-function confirmEnding(str, target) {
-  
-}
+confirmEnding = function stringCheck( str, target) {
+  return str.endsWith(target);
+};
 
-confirmEnding("Bastian", "n") // => true
-confirmEnding("Congratulation", "on") // => true
+alert(confirmEnding("Bastian", "n"));
+alert(confirmEnding("Congratulation", "on"));
+alert(confirmEnding("Connor", "n"));
