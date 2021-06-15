@@ -1,6 +1,12 @@
 function confirmEnding(str, target) {
-  
+  if(str.endsWith(target)){
+    return true
+  }
+  else{
+    return false
+  }
 }
 
 confirmEnding("Bastian", "n") // => true
 confirmEnding("Congratulation", "on") // => true
+
