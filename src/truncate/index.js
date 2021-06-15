@@ -1,6 +1,8 @@
-function truncateString(str, num) {
- 
+function truncatestring(str, num) {
+    if (num>= str. length) returnstr;
+if (num<=2) return str.slice (0, num) + "...";
+return str.slice (0, num) + "..."
 }
-
-truncateString("A-tisket a-tasket A green and yellow basket", 8) // => A-tisket...
-truncateString("Absolutely Longer", 2) // => Ab....
+alert (truncatestring("A-",1));
+alert (truncatestring  ("Absolutely longer", 2));
+alert (truncatestring ("A-tisket a-tasket A green and yellow basket", 8)); // => A-tisket...
