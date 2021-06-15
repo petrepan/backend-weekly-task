@@ -2,11 +2,15 @@
 //The function converts convert from Celsius to Fahrenheit.
 //The formular to convert to fahrenheit is "temperature in Celsius times 9 / 5, plus 32".
 
-function convertToFahrenheit(celsius) {
+convertToF = function convertToFahrenheit(celsius) {
     let fahrenheit;
+    fahrenheit = celsius*9/5+32;
     return fahrenheit;
 }
 
 
 convertToF(-30) // -> -22
 convertToF(-10) // -> 14
+
+alert(convertToF(-30));
+alert(convertToF(-10));
