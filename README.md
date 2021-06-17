@@ -26,11 +26,12 @@ Warning: Do not modify or delete any file in this repo.
 
 * Copy the files in the `john doe` into your own folder. Do not touch anything in the john doe folder, just copy the files.
 
-* Read the `task` file and solve your solution in `evenSpaced.js`.
+* Read the `README.md` file and solve your solution in `evenSpaced.js`.
 
 * After solving; add, commit and push your file changes to your github.
 
 * Go to your repo on github and make a pull request. Go to the repo on github and click on anywhere you see a `Pull request` button or tab. **NOTE:** Make sure you've pushed before making a pull request.
 
-
+Make sure your test are passed before you make a pull request.
 **NOTE: To test your app or code, run `npm run test` in your terminal.**
+
