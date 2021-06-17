@@ -1,8 +1,12 @@
 
 function evenlySpaced(first, second, last) {
     //Provide your solution here
-    
-    if(Math.abs(first -second) === Math.abs(second - last)){
+    //Declare an array to contain the three values
+    let arrOfThree = [];
+    arrOfThree.push(first, second, last)
+    //Sort the array in ascendind order to have small, medium, and large.
+    let sorted = arrOfThree.sort((a, b) => a - b)
+    if(Math.abs(sorted[0] - sorted[1]) === Math.abs(sorted[1] -sorted[2])){
         return true;
     }else{
         return false;
