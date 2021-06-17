@@ -16,13 +16,13 @@ Warning: Do not modify or delete any file in this repo.
 
 * Then `git merge upstream/main` to merge them together.
 
-* Install (https://nodejs.org)[NodeJS] on your PC. If you don't have it.
+* Install [https://nodejs.org](NodeJS) on your PC. If you don't have it.
 
 * Run `npm install` to install all the current dependencies.
 
 * Go to the src folder, there's a `john-doe` folder that contains your task.
 
-* In the src folder, create your own folder with your name. With the same name you use on the attendance sheet. It should also be (https://winnercrespo.com/naming-conventions/)[kebab case] e.g `ben john` should be `ben-john`.
+* In the src folder, create your own folder with your name. With the same name you use on the attendance sheet. It should also be [https://winnercrespo.com/naming-conventions/](kebab-case) e.g `ben john` should be `ben-john`.
 
 * Copy the files in the `john doe` into your own folder. Do not touch anything in the john doe folder, just copy the files.
 
