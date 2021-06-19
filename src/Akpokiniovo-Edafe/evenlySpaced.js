@@ -1,7 +1,8 @@
 
 function evenlySpaced(first, second, last) {
     //Provide your solution here
-    
+    let avg = (last+first)/2
+    return avg==second
 }
 
 evenlySpaced(2,4,6) // -> should return true
