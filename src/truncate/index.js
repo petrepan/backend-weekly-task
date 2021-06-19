@@ -1,6 +1,13 @@
 function truncateString(str, num) {
- newString = str.length<=num? str:str.substring(0,num)+'...'
- return newString
+
+    if(str.length > num){
+        let newString = str.substr(0,num);
+        return newString + "..."
+    }
+    else{
+        return str;
+    }
+
 }
 
 console.log(truncateString("A-tisket a-tasket A green and yellow basket", 8)) // => A-tisket...
