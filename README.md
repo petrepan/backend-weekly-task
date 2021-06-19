@@ -24,7 +24,7 @@ Warning: Do not modify or delete any file in this repo.
 
 * In the src folder, create your own folder with your name. With the same name you use on the attendance sheet. It should also be [kebab-case](https://winnercrespo.com/naming-conventions/) e.g `ben john` should be `ben-john`. 
 
-* Copy the three files in the `john doe` into your own folder. Do not touch anything in the john doe folder, just copy the files. Also copy your week two folders in it(celsiusToFahreinheit,confirmEnding, truncate).
+* Copy the three files in the `john doe` folder into your own folder. After copying, **delete** the `john-doe` folder. Also copy your week two folders into your new folder(celsiusToFahreinheit,confirmEnding, truncate).
 
 * Read the `README.md` file and solve your solution in `evenSpaced.js`.
 
