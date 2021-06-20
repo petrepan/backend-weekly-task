@@ -6,6 +6,7 @@ function evenlySpaced(first, second, last) {
     arrOfThree.push(first, second, last)
     //Sort the array in ascendind order to have small, medium, and large.
     let sorted = arrOfThree.sort((a, b) => a - b)
+    //check if evenly spaced
     if(Math.abs(sorted[0] - sorted[1]) === Math.abs(sorted[1] -sorted[2])){
         return true;
     }else{
