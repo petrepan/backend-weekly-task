@@ -2,6 +2,14 @@
 function evenlySpaced(first, second, last) {
     //Provide your solution here
     
+    function  evenlySpaced(first, second, last) {
+        if (first  > second  && (first - second) >= 2) {
+          return true;
+        } else {
+          return false;
+        }
+      }
+      
 }
 
 evenlySpaced(2,4,6) // -> should return true
