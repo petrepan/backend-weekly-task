@@ -1,0 +1,22 @@
+{
+  "name": "backend-weekly-task",
+  "version": "1.0.0",
+  "description": "* Fork this repo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petrepan/backend-weekly-task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petrepan/backend-weekly-task/issues"
+  },
+  "homepage": "https://github.com/petrepan/backend-weekly-task#readme",
+  "dependencies": {
+    "jest": "^27.0.4"
+  }
+}
