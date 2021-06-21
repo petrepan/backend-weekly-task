@@ -8,7 +8,7 @@ function evenlySpaced(a, b, c) {
     
 }
 
-console.log(evenlySpaced(2,4,6)) // -> should return true
-console.log(evenlySpaced(3,6,12)) // -> should return false
+evenlySpaced(2,4,6) // -> should return true
+evenlySpaced(3,6,12) // -> should return false
 
 module.exports = evenlySpaced;
