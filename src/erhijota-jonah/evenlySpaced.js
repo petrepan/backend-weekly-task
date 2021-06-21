@@ -1,6 +1,14 @@
 
 function evenlySpaced(first, second, last) {
     //Provide your solution here
+    let arrOfThree = [];
+    arrOfThree.push(first, second, last)
+    let sorted = arrOfThree.sort((a, b)=> a - b)
+    if(Math.abs(sorted[0] - sorted[1]) === Math.abs(sorted[1] -sorted[2])){
+        return true
+    }else {
+        return false
+    }
     
 }
 
