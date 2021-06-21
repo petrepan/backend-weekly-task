@@ -1,9 +1,12 @@
 
 function evenlySpaced(first, second, last) {
     //Provide your solution here
-    let average = (last+first)/2
-    return average==second
-
+     if ((a - b === b - c) || (a - c === c - b) || (a - b === c - a)) {
+        return true;
+    } else {
+        return false;
+    }
+}
     
 }
 
