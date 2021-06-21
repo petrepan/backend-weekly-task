@@ -22,7 +22,7 @@
 //   }
 // }
 
-// // METHOD 2
+// METHOD 2
 function evenlySpaced(first, second, last) {
   let array = [first, second, last];
   array.sort(function (a, b) {
@@ -37,6 +37,15 @@ function evenlySpaced(first, second, last) {
   return avg == middle;
 }
 
+// METHOD 3
+// function evenlySpaced(x, y, z) {
+//   if (x - y == y - z || x - z == z - y || x - y == z - x) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
 module.exports = evenlySpaced;
 
-// console.log(evenlySpaced(2, 4, 6));
+evenlySpaced(2, 4, 6);
