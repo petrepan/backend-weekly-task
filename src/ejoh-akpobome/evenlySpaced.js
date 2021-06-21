@@ -2,13 +2,19 @@
 function evenlySpaced(first, second, last) {
     //Provide your solution here
     
-    if ((first - Second === second - third) ||
-     (first - third === third - second) || 
-     (first - second === third - first)) {
-        return true;
-    } else {
-        return false;
-    }
+    function evenlySpaced(first, second, last) {
+        let array = [first, second, last];
+        array.sort(function (a, b) {
+          return a - b;
+        });
+      
+        let smallest = array[0];
+        let middle = array[1];
+        let largest = array[2];
+      
+        let avg = (largest + smallest) / 2;
+        return avg == middle;
+      }
 }
       
 
