@@ -9,7 +9,6 @@ node_modules/
 # testing
 /coverage
 
-/src/Akpokiniovo-Edafe
 # production
 /frontend/build
 
